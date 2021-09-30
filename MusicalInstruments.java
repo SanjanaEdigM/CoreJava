@@ -5,7 +5,7 @@ class MusicalInstruments{
 	public String frequency;
 	public String type;
 	
-	public MusicalInstruments(String nm, double pr, String freq, String tp){	//Default constructor
+	public MusicalInstruments(String nm, double pr, String freq, String tp){	//parameterised constructor
 		name=nm;
 		price=pr;
 		frequency=freq;
