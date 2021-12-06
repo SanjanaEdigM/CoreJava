@@ -1,17 +1,12 @@
 package com.xworkz.clonable.dto;
 
-public class MobileDto implements Cloneable {
+public class TravelsDto implements Cloneable{
    
-	private int id;
 	private String name;
 	private int price;
-	private String type;
-	public int getId() {
-		return id;
-	}
-	public void setId(int id) {
-		this.id = id;
-	}
+	private String destination;
+	
+	
 	public String getName() {
 		return name;
 	}
@@ -24,11 +19,11 @@ public class MobileDto implements Cloneable {
 	public void setPrice(int price) {
 		this.price = price;
 	}
-	public String getType() {
-		return type;
+	public String getDestination() {
+		return destination;
 	}
-	public void setType(String type) {
-		this.type = type;
+	public void setDestination(String destination) {
+		this.destination = destination;
 	}
 	
 	
@@ -42,9 +37,8 @@ public class MobileDto implements Cloneable {
 	@Override
 	public String toString() {
 		
-		return "MobileDto={id="+this.id+",name="+this.name+",price="+this.price+",type="+this.type+"}";
+		return "TravelsDto={name="+this.name+",price="+this.price+",destination="+this.destination+"}";
 	}
-	
 	
 	
 	
